@@ -17,7 +17,7 @@
 
   ## Usage
   This application will allow users view an about me page, send information through a contact form, view my projects, and view my resume.
-  React Portfolio.jpg
+  
 
   ## License
   This project is license under MIT
