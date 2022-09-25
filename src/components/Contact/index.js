@@ -65,21 +65,21 @@ function Contact() {
                 <h3 className='mb-3 text-light'>Contact Me!</h3>
                 <div className='form-floating mb-3'>
                     <input name='name' type="text"
-                        className="form-control text-white bg-secondary border-secondary" id="floatInput"
+                        className="form-control bg-secondary border-secondary" id="floatInput"
                         placeholder='Name' onBlur={handleChange} />
-                    <label htmlFor="floatInput" className='text-white'>Name</label>
+                    <label htmlFor="floatInput" className='name-input'>Name</label>
                 </div>
                 <div className="form-floating mb-3">
                     <input name='email' type="email"
-                        className="form-control text-white bg-secondary border-secondary" id="emailInput"
+                        className="form-control bg-secondary border-secondary" id="emailInput"
                         placeholder="Email" onBlur={handleChange} />
-                    <label htmlFor="emailInput" className='text-white'>Email</label>
+                    <label htmlFor="emailInput" className='email-input'>Email</label>
                 </div>
                 <div className="form-floating mb-3">
                     <textarea name='message' id="messageInput"
-                        className="form-control text-white bg-secondary border-secondary" placeholder='Type a message'
+                        className="form-control bg-secondary border-secondary" placeholder='Type a message'
                         onBlur={handleChange}></textarea>
-                    <label htmlFor="messageInput" className='text-white'>Message</label>
+                    <label htmlFor="messageInput" className='message-input'>Message</label>
                 </div>
                 <div className="float-sm-end d-flex align-items-center justify-content-sm-center flex-column flex-sm-row">
                     <span className='text-danger mx-3 order-last order-sm-first'>{errorMessage}</span>

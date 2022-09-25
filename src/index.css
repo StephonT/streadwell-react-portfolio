@@ -20,8 +20,12 @@ code {
   aspect-ratio: 16/9;
 }
 
-.hero-banner{
-  width: 300px 
+.hero-banner{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  margin-top: 20px;
 }
 
 .bi-github{
@@ -33,7 +37,30 @@ code {
 }
 
 .resume-download{
-  color: #F7DC6F;
+  background-color: #0a192f;
+  border-radius: 10px;
+  border-color: #F7DC6F;
+  color: white;
   text-decoration: none;
+}
+
+#submit-btn{
+  border-radius: 10px;
+  border-color: #F7DC6F;
+}
+
+#submit-btn:hover{
+  background-color: #F7DC6F;
+  color: #0a192f;
+}
+
+.resume-download:hover{
+  background-color: #F7DC6F;
+  color: #0a192f;
+  text-decoration: none;
+}
+
+.name-input, .email-input, .message-input{
+  color: #0a192f;
 }
 

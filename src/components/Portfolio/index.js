@@ -14,7 +14,7 @@ function Portfolio() {
         {
             name: 'Note Taker',
             description: "This application was created to allow users to read and write notes. This application uses Express.js to connect the client-side server and back-end server and Node.js for it's file system",
-            deployed: 'https://not3-t4ker.herokuapp.com/"',
+            deployed: 'https://not3-t4ker.herokuapp.com/',
             repository: 'https://github.com/StephonT/Note-Taker',
             technology: ['Node.js | Express.js'],
             image: require('../../assets/images/noteTaker.jpg'),
