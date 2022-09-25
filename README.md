@@ -16,7 +16,7 @@
   The user should clone the repository from GitHub and install dependencies. To run React, run npm start.
 
   ## Usage
-  This application will allow users view an about me page, send information through a contact form, view my projects, and view my resume.
+  This application will allow users to view an about me page, send information through a contact form, view my projects, and view my resume. <br> Please view deployed application on <a href 
   ![image](https://user-images.githubusercontent.com/104699408/192144697-d786a75f-05fe-42f7-aee7-34c3ea8d8eec.png)
 
   ## License
