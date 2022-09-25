@@ -17,7 +17,7 @@
 
   ## Usage
   This application will allow users view an about me page, send information through a contact form, view my projects, and view my resume.
-  
+  ![image](https://user-images.githubusercontent.com/104699408/192144697-d786a75f-05fe-42f7-aee7-34c3ea8d8eec.png)
 
   ## License
   This project is license under MIT
