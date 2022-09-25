@@ -12,3 +12,10 @@ code {
     monospace;
 }
 
+#messageInput {
+  height: 100px;
+}
+
+.card-img-top {
+  aspect-ratio: 16/9;
+}

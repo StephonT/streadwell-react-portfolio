@@ -6,7 +6,7 @@ function Banner() {
         <div className="hero-banner">
             <img className='w-100'
                 src={bannerImage}
-                alt="hero banner with name and portrait of Chris Nohilly" />
+                alt="hero banner with name and portrait of Stephon Treadwell" />
         </div>
     )
 }
