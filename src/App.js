@@ -26,8 +26,10 @@ function App() {
   }
   return (
     <div className='bg-dark text-white d-flex flex-column min-vh-100 position-relative'>
-      <Banner />
+      <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Banner />
+    </div>  
       <main className='flex-grow-1 d-flex flex-column m-2'>
         {renderPage()}
       </main>

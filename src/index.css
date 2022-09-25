@@ -19,3 +19,21 @@ code {
 .card-img-top {
   aspect-ratio: 16/9;
 }
+
+.hero-banner{
+  width: 300px 
+}
+
+.bi-github{
+  color: grey;
+}
+
+.resume{
+  color: #F7DC6F;
+}
+
+.resume-download{
+  color: #F7DC6F;
+  text-decoration: none;
+}
+

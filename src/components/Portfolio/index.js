@@ -55,8 +55,8 @@ function Portfolio() {
     return (
         <section className="content-section container my-5">
             <h2 className='text-center text-light'>Portfolio</h2>
-            <p className='text-center fs-4 mb-5'>Here are a few examples of my work.
-                <br />Hover over the cards to see a small demonstration video or go to the deployed application.</p>
+            <p className='text-center fs-4 mb-5'>Here are a few of my recent projects
+            </p>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
                 {projects.map(project => (
                     <Project project={project} key={project.name} />

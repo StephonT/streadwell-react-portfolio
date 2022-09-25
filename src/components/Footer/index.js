@@ -15,7 +15,7 @@ function Footer() {
                     <a className="nav-link text-muted d-flex align-items-center"
                         target="_blank" rel="noopener noreferrer" href="https://github.com/StephonT">
                         <i className="bi bi-github fs-2"></i>
-                        <span className='ms-2'>streadwell</span>
+                        <span className='ms-2'>StephonT</span>
                     </a>
                 </li>
             </ul>

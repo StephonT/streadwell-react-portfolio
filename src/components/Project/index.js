@@ -6,8 +6,6 @@ function Project({ project }) {
     return (
         <div className="col" key={name}>
             <div className="card h-100 bg-secondary text-white"
-                onMouseEnter={() => setCardImage(gif)}
-                onMouseLeave={() => setCardImage(image)}
             >
                 <img className='card-img-top' src={cardImage} alt="demo of project" />
                 <div className="card-header my-0 py-2">
