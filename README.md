@@ -17,7 +17,7 @@
 
   ## Usage
   This application will allow users view an about me page, send information through a contact form, view my projects, and view my resume.
-  https://github.com/StephonT/streadwell-react-portfolio/blob/0ab5eae40929550f3c6ddacd9e47ef8fae625f5a/src/assets/images/React%20Portfolio.jpg
+  
 
   ## License
   This project is license under MIT
