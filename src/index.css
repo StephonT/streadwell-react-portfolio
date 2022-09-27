@@ -4,7 +4,8 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; 
+  overflow-x: hidden;
 }
 
 code {
@@ -40,8 +41,12 @@ code {
   background-color: #0a192f;
   border-radius: 10px;
   border-color: #F7DC6F;
+  border-width: 2px;
+  border-style: solid;
   color: white;
   text-decoration: none;
+  padding: 5px;
+  
 }
 
 #submit-btn{
@@ -63,4 +68,14 @@ code {
 .name-input, .email-input, .message-input{
   color: #0a192f;
 }
+
+.about-section{
+  text-align: center;
+}
+
+strong{
+  color: #F7DC6F;
+}
+
+
 
