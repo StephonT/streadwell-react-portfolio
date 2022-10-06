@@ -68,6 +68,7 @@ function Contact() {
                     <span className='text-danger mx-3 order-last order-sm-first'>{errorMessage}</span>
                     <button className="btn btn-primary mb-3 mb-sm-0 px-5 my-auto order-first order-sm-last" id="submit-btn">Submit</button>
                 </div>
+                
             </form>
         </section>
     )
