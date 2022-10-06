@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/streadwell-react-portfolio/static/css/main.66ef45b1.css",
-    "main.js": "/streadwell-react-portfolio/static/js/main.b0532143.js",
+    "main.css": "/streadwell-react-portfolio/static/css/main.531d533c.css",
+    "main.js": "/streadwell-react-portfolio/static/js/main.83072dbf.js",
     "static/js/787.c96995ac.chunk.js": "/streadwell-react-portfolio/static/js/787.c96995ac.chunk.js",
     "static/media/photoPort.jpg": "/streadwell-react-portfolio/static/media/photoPort.35546b64c3aeb5f90d68.jpg",
     "static/media/watchList.jpg": "/streadwell-react-portfolio/static/media/watchList.af0ced2b81078bd4f982.jpg",
@@ -12,12 +12,12 @@
     "static/media/SCT_Resume.pdf": "/streadwell-react-portfolio/static/media/SCT_Resume.0c03595860d1a7a74091.pdf",
     "static/media/face.png": "/streadwell-react-portfolio/static/media/face.81ca5d7b7a5a6e6c7363.png",
     "index.html": "/streadwell-react-portfolio/index.html",
-    "main.66ef45b1.css.map": "/streadwell-react-portfolio/static/css/main.66ef45b1.css.map",
-    "main.b0532143.js.map": "/streadwell-react-portfolio/static/js/main.b0532143.js.map",
+    "main.531d533c.css.map": "/streadwell-react-portfolio/static/css/main.531d533c.css.map",
+    "main.83072dbf.js.map": "/streadwell-react-portfolio/static/js/main.83072dbf.js.map",
     "787.c96995ac.chunk.js.map": "/streadwell-react-portfolio/static/js/787.c96995ac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66ef45b1.css",
-    "static/js/main.b0532143.js"
+    "static/css/main.531d533c.css",
+    "static/js/main.83072dbf.js"
   ]
 }
