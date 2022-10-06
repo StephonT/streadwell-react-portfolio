@@ -78,4 +78,11 @@ strong{
 }
 
 
+.email {
+  text-decoration: none;
+  color: #F7DC6F;
+}
 
+.email:hover{
+  color: #F7DC6F;
+}

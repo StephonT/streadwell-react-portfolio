@@ -45,7 +45,7 @@ function Contact() {
     return (
         <section className="content-section container my-3" id="contact">
             <form action="submit" id="contact-form" onSubmit={handleSubmit}>
-                <h3 className='mb-3 text-light'>Contact Me!</h3>
+                <h3 className='mb-3 text-light'>To contact me directly, my email address is <a className='email' href='mailto:streadwe@gmail.com'>streadwe@gmail.com</a></h3>
                 <div className='form-floating mb-3'>
                     <input name='name' type="text"
                         className="form-control bg-secondary border-secondary" id="floatInput"

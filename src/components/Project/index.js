@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 function Project({ project }) {
-    const { name, description, deployed, repository, technology, image, gif } = project;
-    const [cardImage, setCardImage] = useState(image);
+    const { name, description, deployed, repository, technology, image} = project;
+    const [cardImage] = useState(image);
     return (
         <div className="col" key={name}>
             <div className="card h-100 bg-secondary text-white"
