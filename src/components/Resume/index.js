@@ -13,6 +13,7 @@ function Resume() {
     "Framework (Bootstrap, Materalize)",
     "Responsive Web Design",
     "Templating language (Handlebars)",
+    "TypeScript"
   ];
 
   const renderFrontEndSkills = (frontendSkillsArray) => {
@@ -28,6 +29,7 @@ function Resume() {
     "MySQL (mysql lite3, mysql2)",
     "NoSQL (MongoDB, Mongoose)",
     "API's (web, third-party, RESTful, server-side)",
+    "Apollo/GraphQL"
   ];
 
 

@@ -4,6 +4,15 @@ import Project from '../Project';
 function Portfolio() {
     const [projects] = useState([
         {
+            name: 'CodeFlow',
+            description: "A MERN Stack application allowing developers to post their projects and interact with other developers",
+            deployed: 'https://code-flow-app.herokuapp.com/',
+            repository: 'https://github.com/cnohilly/codeflow',
+            technology: ['React | Bootstrap | Tailwind.css'],
+            image: require('../../assets/images/Code-Flow.jpg'),
+        },
+        {
+
             name: 'Photo Port',
             description: "An application to showcase a client's photography portfolio using React.js",
             deployed: 'https://stephont.github.io/Photo-Port/',
@@ -18,14 +27,6 @@ function Portfolio() {
             repository: 'https://github.com/StephonT/Note-Taker',
             technology: ['Node.js | Express.js'],
             image: require('../../assets/images/noteTaker.jpg'),
-        },
-        {
-            name: 'Run Buddy',
-            description: 'A website that offers fitness training services.',
-            deployed: 'https://stephont.github.io/run-buddy/',
-            repository: 'https://github.com/StephonT/run-buddy',
-            technology: ['HTML | CSS'],
-            image: require('../../assets/images/runBuddy.jpg'),
         },
         {
             name: 'Pizza Hunt',
