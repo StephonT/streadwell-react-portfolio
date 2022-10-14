@@ -8,7 +8,7 @@ function Portfolio() {
             description: "A MERN Stack application allowing developers to post their projects and interact with other developers",
             deployed: 'https://code-flow-app.herokuapp.com/',
             repository: 'https://github.com/cnohilly/codeflow',
-            technology: ['React | Bootstrap | Tailwind.css'],
+            technology: ['MERN Stack | Json Web Tokens | Concurrently | Apollo/Client | Animate.css | Bcrypt'],
             image: require('../../assets/images/Code-Flow.jpg'),
         },
         {
