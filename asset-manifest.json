@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/streadwell-react-portfolio/static/css/main.531d533c.css",
-    "main.js": "/streadwell-react-portfolio/static/js/main.955fa5ff.js",
-    "static/js/787.c96995ac.chunk.js": "/streadwell-react-portfolio/static/js/787.c96995ac.chunk.js",
+    "main.css": "/streadwell-react-portfolio/static/css/main.ce7499aa.css",
+    "main.js": "/streadwell-react-portfolio/static/js/main.e7e7b0a4.js",
     "static/media/photoPort.jpg": "/streadwell-react-portfolio/static/media/photoPort.35546b64c3aeb5f90d68.jpg",
-    "static/media/watchList.jpg": "/streadwell-react-portfolio/static/media/watchList.af0ced2b81078bd4f982.jpg",
+    "static/media/watchItLater.jpg": "/streadwell-react-portfolio/static/media/watchItLater.af0ced2b81078bd4f982.jpg",
     "static/media/pizzaHunt.jpg": "/streadwell-react-portfolio/static/media/pizzaHunt.83ea0b2f0254ebd89bc8.jpg",
     "static/media/Code-Flow.jpg": "/streadwell-react-portfolio/static/media/Code-Flow.91c69e8bd11b7c0999a0.jpg",
     "static/media/techBlog.jpg": "/streadwell-react-portfolio/static/media/techBlog.3a2681dabc9689454c9f.jpg",
     "static/media/noteTaker.jpg": "/streadwell-react-portfolio/static/media/noteTaker.14402fd09d2806091424.jpg",
-    "static/media/SCT_Resume.pdf": "/streadwell-react-portfolio/static/media/SCT_Resume.0c03595860d1a7a74091.pdf",
+    "static/media/Treadwell-Resume.pdf": "/streadwell-react-portfolio/static/media/Treadwell-Resume.3aa83cf73fed671b182d.pdf",
     "static/media/face.png": "/streadwell-react-portfolio/static/media/face.81ca5d7b7a5a6e6c7363.png",
+    "static/media/react.png": "/streadwell-react-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/streadwell-react-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/streadwell-react-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/github.png": "/streadwell-react-portfolio/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/streadwell-react-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/streadwell-react-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/TypeScript.png": "/streadwell-react-portfolio/static/media/TypeScript.bb13ebd9561a6ee645c2.png",
+    "static/media/javascript.png": "/streadwell-react-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/streadwell-react-portfolio/index.html",
-    "main.531d533c.css.map": "/streadwell-react-portfolio/static/css/main.531d533c.css.map",
-    "main.955fa5ff.js.map": "/streadwell-react-portfolio/static/js/main.955fa5ff.js.map",
-    "787.c96995ac.chunk.js.map": "/streadwell-react-portfolio/static/js/787.c96995ac.chunk.js.map"
+    "main.ce7499aa.css.map": "/streadwell-react-portfolio/static/css/main.ce7499aa.css.map",
+    "main.e7e7b0a4.js.map": "/streadwell-react-portfolio/static/js/main.e7e7b0a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.531d533c.css",
-    "static/js/main.955fa5ff.js"
+    "static/css/main.ce7499aa.css",
+    "static/js/main.e7e7b0a4.js"
   ]
 }
