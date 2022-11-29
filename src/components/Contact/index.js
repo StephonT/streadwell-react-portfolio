@@ -1,77 +1,111 @@
-import React, { useEffect, useState } from 'react';
-import { capitalizeFirstLetter, validateEmail } from '../../utils/helpers';
-
+import React, { useEffect, useState } from "react";
+import { capitalizeFirstLetter, validateEmail } from "../../utils/helpers";
 
 function Contact() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const [errorMessage, setErrorMessage] = useState('');
-    const [formComplete, setFormComplete] = useState(false);
-    // use effect to determine if a form is complete with values
-    useEffect(() => {
-        setFormComplete(Object.values(formState).every(input => {
-            return input;
-        }))
-    }, [formState]);
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const [errorMessage, setErrorMessage] = useState("");
+  const [formComplete, setFormComplete] = useState(false);
+  // use effect to determine if a form is complete with values
+  useEffect(() => {
+    setFormComplete(
+      Object.values(formState).every((input) => {
+        return input;
+      })
+    );
+  }, [formState]);
 
-    // function to call when a form field loses focus
-    // variable used to hold error message to avoid async issues
-    function handleChange(e) {
-        let errorText = '';
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            if (!isValid) {
-                errorText = 'Please enter a valid email.';
-            }
-        } else {
-            if (!e.target.value.length) {
-                errorText = `${capitalizeFirstLetter(e.target.name)} is required.`;
-            }
-        }
-        if (errorText) {
-            setErrorMessage(errorText, setFormState({ ...formState, [e.target.name]: '' }));
-        } else {
-            setErrorMessage('', setFormState({ ...formState, [e.target.name]: e.target.value }));
-        }
+  // function to call when a form field loses focus
+  // variable used to hold error message to avoid async issues
+  function handleChange(e) {
+    let errorText = "";
+    if (e.target.name === "email") {
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        errorText = "Please enter a valid email.";
+      }
+    } else {
+      if (!e.target.value.length) {
+        errorText = `${capitalizeFirstLetter(e.target.name)} is required.`;
+      }
     }
-
-    // handles submitting the form, verifies that there is currently no error message and the form is completed
-    function handleSubmit(e) {
-        e.preventDefault();
-        if (!errorMessage && formComplete) {
-            console.log(formState);
-        }
+    if (errorText) {
+      setErrorMessage(
+        errorText,
+        setFormState({ ...formState, [e.target.name]: "" })
+      );
+    } else {
+      setErrorMessage(
+        "",
+        setFormState({ ...formState, [e.target.name]: e.target.value })
+      );
     }
+  }
 
-    return (
-        <section className="content-section container my-3" id="contact">
-            <form action="submit" id="contact-form" onSubmit={handleSubmit}>
-                <h3 className='mb-3 text-light'>To contact me directly, my email address is <a className='email' href='mailto:streadwe@gmail.com'>streadwe@gmail.com</a></h3>
-                <div className='form-floating mb-3'>
-                    <input name='name' type="text"
-                        className="form-control bg-secondary border-secondary" id="floatInput"
-                        placeholder='Name' onBlur={handleChange} />
-                    <label htmlFor="floatInput" className='name-input'>Name</label>
-                </div>
-                <div className="form-floating mb-3">
-                    <input name='email' type="email"
-                        className="form-control bg-secondary border-secondary" id="emailInput"
-                        placeholder="Email" onBlur={handleChange} />
-                    <label htmlFor="emailInput" className='email-input'>Email</label>
-                </div>
-                <div className="form-floating mb-3">
-                    <textarea name='message' id="messageInput"
-                        className="form-control bg-secondary border-secondary" placeholder='Type a message'
-                        onBlur={handleChange}></textarea>
-                    <label htmlFor="messageInput" className='message-input'>Message</label>
-                </div>
-                <div className="float-sm-end d-flex align-items-center justify-content-sm-center flex-column flex-sm-row">
-                    <span className='text-danger mx-3 order-last order-sm-first'>{errorMessage}</span>
-                    <button className="btn btn-primary mb-3 mb-sm-0 px-5 my-auto order-first order-sm-last" id="submit-btn">Submit</button>
-                </div>
-                
-            </form>
-        </section>
-    )
+  // handles submitting the form, verifies that there is currently no error message and the form is completed
+  //not needed however because i am using getform.io
+  function handleSubmit(e) {
+    e.preventDefault();
+    if (!errorMessage && formComplete) {
+      console.log(formState);
+    }
+  }
+
+  return (
+    <div
+      name="contact"
+      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
+    >
+      <form
+        method="POST"
+        action="https://getform.io/f/57642a8e-4754-49ee-bbfb-b1dd0e0545a3"
+        className="flex flex-col max-w-[600px] w-full"
+      >
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-amber-300 text-gray-300">
+            Contact
+          </p>
+          <p className="text-amber-300 text-2xl pt-4">
+            Submit the form below or shoot me an email -{" "}
+            <a
+              className="hover:text-4xl hover:text-white"
+              href="mailto:streadwe@gmail.com"
+            >
+              streadwe@gmail
+            </a>{" "}
+          </p>
+        </div>
+        <input
+          className="p-2"
+          type="text"
+          placeholder="Name"
+          name="name"
+          onBlur={handleChange}
+        />
+        <input
+          className="my-4 p-2 "
+          type="email"
+          placeholder="Email"
+          name="email"
+          onBlur={handleChange}
+        />
+        <textarea
+          name="message"
+          className="p-2"
+          rows="10"
+          placeholder="Message"
+          onBlur={handleChange}
+        ></textarea>
+        <span className="text-amber-300 text-2xl">{errorMessage}</span>
+        <button className="text-white border-2 hover:bg-amber-300 hover:border-amber-400 px-4 py-3 my-8 mx-auto flex items-center">
+          Let's Collaborate
+        </button>
+      </form>
+    </div>
+  );
 }
 
 export default Contact;

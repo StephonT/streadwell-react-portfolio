@@ -1,88 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
-  overflow-x: hidden;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Rokkitt]
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
 }
 
-#messageInput {
-  height: 100px;
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(192, 192, 22, 0.8),
+        hsla(243, 45%, 20%, 0.8)   
+    )!important;
 }
 
-.card-img-top {
-  aspect-ratio: 16/9;
-}
-
-.hero-banner{ 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200px;
-  margin-top: 20px;
-}
-
-.bi-github{
-  color: grey;
-}
-
-.resume{
-  color: #F7DC6F;
-}
-
-.resume-download{
-  background-color: #0a192f;
-  border-radius: 10px;
-  border-color: #F7DC6F;
-  border-width: 2px;
-  border-style: solid;
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-  
-}
-
-#submit-btn{
-  border-radius: 10px;
-  border-color: #F7DC6F;
-}
-
-#submit-btn:hover{
-  background-color: #F7DC6F;
-  color: #0a192f;
-}
-
-.resume-download:hover{
-  background-color: #F7DC6F;
-  color: #0a192f;
-  text-decoration: none;
-}
-
-.name-input, .email-input, .message-input{
-  color: #0a192f;
-}
-
-.about-section{
-  text-align: center;
-}
-
-strong{
-  color: #F7DC6F;
-}
-
-
-.email {
-  text-decoration: none;
-  color: #F7DC6F;
-}
-
-.email:hover{
-  color: #F7DC6F;
+.my-name {
+    animation-duration: 1s;
 }
