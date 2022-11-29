@@ -1,16 +1,33 @@
 import React from 'react'
+import face from '../../assets/projects/face.png'
 
 const About = () => {
   return (
-    <section className='about-section'>
-      <p className='about-paragraph'>
-      Hello! My name is <strong>Stephon</strong> and I am a <strong>Full-Stack Software Engineer</strong> out of North Brunswick, NJ. I currently have a career in <strong>Law Enforcement</strong> with a <strong>Business Administration</strong> background . I'm looking to switch careers into a <strong>Full-Time Position </strong>in the <strong>Tech Industry</strong> to contribute my newly developed skills acquired from the <strong>Rutgers University Coding Boot Camp</strong>. Projects that I have done reflect my skills in the following <strong>technologies</strong> listed: HTML, CSS, JavaScript, React.js, Frameworks( Bootstrap, Tailwind CSS), Responsive Web Design, Templating (Handlebars.js), Node.js, Express.js, MySQL(mysql lite3, mysql2), NoSQL(MongoDB, Mongoose), API's (web, third-party, RESTful and server-side), and Apollo/GraphQL. </p>
-       
-      <p className='about-paragraph'> 
-      I have strong skills in <strong>Creativity, Teamwork,</strong> and <strong>Meeting Deadlines</strong>. My ability to quickly learn <strong>cutting-edge web technologies</strong>, combined with my <strong>adept problem-solving abilities and determination</strong>, make me a strong addition to any <strong>engineering team</strong>.
-      </p>
-    </section>
-  )
+    <div name="about" className="w-full h-screen bg-[#0a192f] text-slate-300">
+      <div className="flex flex-col justify-center items-center w-full h-full">
+        <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
+          <div className="sm:text-right pb-8 pl-4">
+            <p className="text-4xl font-bold inline border-b-4 border-amber-300">
+              About
+            </p>
+          </div>
+          <div></div>
+
+        </div>
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+          <div  className="sm:text-right text-4xl font-bold flex ">
+            <p>
+            Hi. I'm Stephon. Nice to meet you! Please take a look around.
+            </p>
+            <img src={face} alt="Picture of Treadwell" className="ml-10 border-double border-4" />
+          </div>
+          <div>
+            <p className="text-lg"> I am currently a Police Sergeant in the state of New Jersey. I am looking to switch careers to become a Software Engineer. I am passionate about building web applications on the front-end as well as the back-end. I am currently building projects using React.js and collaborating with other Software Developers on full stack projects. Feel free to contact me if you would like to collaborate on a project, have questions for me, or would like to hire me! Please refer to the contact section of my portfolio for my contact information.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default About

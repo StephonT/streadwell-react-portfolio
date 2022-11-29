@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Header from './components/Header';
+import Header from './components/Navbar';
 import About from './components/About';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
@@ -17,13 +17,14 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   const renderPage = () => {
-    switch (currentPage) {
+    switch(currentPage) {
       case 'Portfolio': return <Portfolio />;
       case 'Contact': return <Contact />;
       case 'Resume': return <Resume />;
-      default: return <About />;
+      default: return <About />
     }
   }
+
   return (
     <div className='bg-dark text-white d-flex flex-column min-vh-100 position-relative'>
       <div>
