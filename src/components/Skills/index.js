@@ -1,30 +1,30 @@
 import React from "react";
-import css from "../assets/images/tech-logos/css.png";
-import github from "../assets/images/tech-logos/github.png";
-import html from "../assets/images/tech-logos/html.png";
-import javascript from "../assets/images/tech-logos/javascript.png";
-import mongodb from "../assets/images/tech-logos/mongo.png";
-import node from "../assets/images/tech-logos/node.png";
-import typescript from "../assets/images/tech-logos/TypeScript.png";
-import reactimg from "../assets/images/tech-logos/react.png";
+import css from "../../assets/images/tech-logos/css.png";
+import github from "../../assets/images/tech-logos/github.png";
+import html from "../../assets/images/tech-logos/html.png";
+import javascript from "../../assets/images/tech-logos/javascript.png";
+import mongodb from "../../assets/images/tech-logos/mongo.png";
+import node from "../../assets/images/tech-logos/node.png";
+import typescript from "../../assets/images/tech-logos/TypeScript.png";
+import reactimg from "../../assets/images/tech-logos/react.png";
 
 const Skills = () => {
-  const techSkills = [
-    html,
-    css,
-    javascript,
-    node,
-    mongodb,
-    reactimg,
-    typescript,
-    github,
-  ];
+//   const techSkills = [
+//     html,
+//     css,
+//     javascript,
+//     node,
+//     mongodb,
+//     reactimg,
+//     typescript,
+//     github,
+//   ];
 
-  const renderTechSkills = (techSkillsArray) => {
-    return techSkillsArray.map((techSkill) => {
-      return <img className="w-40 mx-auto" src={techSkill} />;
-    });
-  };
+//   const renderTechSkills = (techSkillsArray) => {
+//     return techSkillsArray.map((techSkill) => {
+//       return <img className="w-40 mx-auto" src={techSkill} />;
+//     });
+//   };
 
 
   return (

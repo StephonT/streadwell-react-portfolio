@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Pdf from "../assets/Treadwell-Resume.pdf";
+import Pdf from "../../assets/Treadwell-Resume.pdf";
 import { Link } from "react-scroll";
-import Logo from "../assets/images/tech-logos/Treadwell-Logo.png";
+import Logo from "../../assets/images/tech-logos/Treadwell-Logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);

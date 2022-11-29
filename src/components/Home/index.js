@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import Pdf from "../../assets/Treadwell-Resume.pdf"
 
 
 
@@ -29,7 +30,7 @@ function Home() {
         <div>
           {/* Have to put "group" in className in order for the entire button to receive arrow animation */}
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-amber-300 hover:border-amber-300">
-            View Work
+            <a href={Pdf} formTarget="_blank" rel="noreferrer" download>Download My Resume</a>
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
