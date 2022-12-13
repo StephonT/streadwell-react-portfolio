@@ -1,8 +1,8 @@
 import CodeFlow from "../assets/projects/Code-Flow.jpg";
-import NoteTaker from "../assets/projects/noteTaker.jpg";
+import NextWeather from "../assets/projects/next-weather-app.jpg";
 import PhotoPort from "../assets/projects/photoPort.jpg";
 import PizzaHunt from "../assets/projects/pizzaHunt.jpg";
-import TechBlog from "../assets/projects/techBlog.jpg";
+import TwitchUi from "../assets/projects/twitchUi.jpg";
 import WatchItLater from "../assets/projects/watchItLater.jpg";
 
 export const data = [
@@ -36,16 +36,16 @@ export const data = [
     },
     {
         id:5,
-        name:"Model-View-Controller Application",
-        image:TechBlog,
-        github:"https://github.com/StephonT/The-Tech-Blog",
-        live:"https://mysterious-headland-04769.herokuapp.com/",
+        name:"Twitch UI",
+        image:TwitchUi,
+        github:"https://github.com/StephonT/Twitch-Replica",
+        live:"https://twitch-replica.vercel.app/",
     },
     {
         id:6,
-        name:"Node.js and Express Application",
-        image:NoteTaker,
-        github:"https://github.com/StephonT/Note-Taker",
-        live:"https://not3-t4ker.herokuapp.com/",
+        name:"Next Weather App",
+        image: NextWeather,
+        github:"https://github.com/StephonT/Weather-App",
+        live:"https://weather-app-six-cyan.vercel.app/",
     },
 ]
