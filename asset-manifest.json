@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/streadwell-react-portfolio/static/css/main.ce7499aa.css",
-    "main.js": "/streadwell-react-portfolio/static/js/main.e7e7b0a4.js",
+    "main.js": "/streadwell-react-portfolio/static/js/main.9a28794a.js",
     "static/media/photoPort.jpg": "/streadwell-react-portfolio/static/media/photoPort.35546b64c3aeb5f90d68.jpg",
     "static/media/watchItLater.jpg": "/streadwell-react-portfolio/static/media/watchItLater.af0ced2b81078bd4f982.jpg",
+    "static/media/twitchUi.jpg": "/streadwell-react-portfolio/static/media/twitchUi.f613b69c766398ad9dab.jpg",
     "static/media/pizzaHunt.jpg": "/streadwell-react-portfolio/static/media/pizzaHunt.83ea0b2f0254ebd89bc8.jpg",
     "static/media/Code-Flow.jpg": "/streadwell-react-portfolio/static/media/Code-Flow.91c69e8bd11b7c0999a0.jpg",
-    "static/media/techBlog.jpg": "/streadwell-react-portfolio/static/media/techBlog.3a2681dabc9689454c9f.jpg",
-    "static/media/noteTaker.jpg": "/streadwell-react-portfolio/static/media/noteTaker.14402fd09d2806091424.jpg",
+    "static/media/next-weather-app.jpg": "/streadwell-react-portfolio/static/media/next-weather-app.8fb0b3b900c8324dec6d.jpg",
     "static/media/Treadwell-Resume.pdf": "/streadwell-react-portfolio/static/media/Treadwell-Resume.3aa83cf73fed671b182d.pdf",
     "static/media/face.png": "/streadwell-react-portfolio/static/media/face.81ca5d7b7a5a6e6c7363.png",
     "static/media/react.png": "/streadwell-react-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/streadwell-react-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/streadwell-react-portfolio/index.html",
     "main.ce7499aa.css.map": "/streadwell-react-portfolio/static/css/main.ce7499aa.css.map",
-    "main.e7e7b0a4.js.map": "/streadwell-react-portfolio/static/js/main.e7e7b0a4.js.map"
+    "main.9a28794a.js.map": "/streadwell-react-portfolio/static/js/main.9a28794a.js.map"
   },
   "entrypoints": [
     "static/css/main.ce7499aa.css",
-    "static/js/main.e7e7b0a4.js"
+    "static/js/main.9a28794a.js"
   ]
 }
