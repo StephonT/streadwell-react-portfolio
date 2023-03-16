@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/streadwell-react-portfolio/static/css/main.ce7499aa.css",
-    "main.js": "/streadwell-react-portfolio/static/js/main.da2bdc03.js",
+    "main.js": "/streadwell-react-portfolio/static/js/main.b5bcda50.js",
     "static/media/photoPort.jpg": "/streadwell-react-portfolio/static/media/photoPort.35546b64c3aeb5f90d68.jpg",
     "static/media/watchItLater.jpg": "/streadwell-react-portfolio/static/media/watchItLater.af0ced2b81078bd4f982.jpg",
     "static/media/twitchUi.jpg": "/streadwell-react-portfolio/static/media/twitchUi.f613b69c766398ad9dab.jpg",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/streadwell-react-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/streadwell-react-portfolio/index.html",
     "main.ce7499aa.css.map": "/streadwell-react-portfolio/static/css/main.ce7499aa.css.map",
-    "main.da2bdc03.js.map": "/streadwell-react-portfolio/static/js/main.da2bdc03.js.map"
+    "main.b5bcda50.js.map": "/streadwell-react-portfolio/static/js/main.b5bcda50.js.map"
   },
   "entrypoints": [
     "static/css/main.ce7499aa.css",
-    "static/js/main.da2bdc03.js"
+    "static/js/main.b5bcda50.js"
   ]
 }
