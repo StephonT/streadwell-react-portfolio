@@ -22,7 +22,7 @@ const About = () => {
             <img src={face} alt="Picture of Treadwell" className="ml-10 border-double border-4" />
           </div>
           <div>
-            <p className="text-lg"> I am currently a Police Sergeant in the state of New Jersey. I am looking to switch careers to become a Software Engineer. I am passionate about building web applications on the front-end as well as the back-end. I am currently building projects using React.js and collaborating with other Software Developers on full stack projects. Feel free to contact me if you would like to collaborate on a project, have questions for me, or would like to hire me! Please refer to the contact section of my portfolio for my contact information.</p>
+            <p className="text-lg">I graduated from Ramapo College of New Jersey in 2013, having majored in Business Administration concentrated in Management. Of course, I don't get a job in business. That makes too much sense! I became a Police Officer two years after graduating college and never looked back. I excelled as a Patrol Officer and became a Police Sergeant and currently occupying that position. Within those years in Law Enforcement, I've been sharpening my programming sword until I decided to take it further by attending the Rutgers Coding Bootcamp. While obtaining my Full-Stack Web Development Certification, I realized that the tech career is for me! It's so rewarding, challenging and fun to code. If I am not coding, I am playing basketball and videogames or I'm singing "Baby Shark" with my daughter and wife.</p>
           </div>
         </div>
       </div>

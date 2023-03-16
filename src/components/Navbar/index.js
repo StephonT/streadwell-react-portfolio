@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import Pdf from "../../assets/Treadwell-Resume.pdf";
+import Pdf from "../../assets/Treadwell-Tech-Resume.pdf";
 import { Link } from "react-scroll";
 import Logo from "../../assets/images/tech-logos/Treadwell-Logo.png";
 
@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-amber-300 text-gray-300">
       <div>
+        <Link to="home" smooth={true} duration={500}>
         <img src={Logo} alt="Logo Image" style={{ width: "100px", marginTop: "15px" }} />
+        </Link>
       </div>
 
       {/* menu */}

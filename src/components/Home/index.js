@@ -1,6 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Pdf from "../../assets/Treadwell-Resume.pdf"
+import Pdf from "../../assets/Treadwell-Tech-Resume.pdf"
 
 
 

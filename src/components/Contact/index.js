@@ -69,7 +69,7 @@ function Contact() {
             Contact
           </p>
           <p className="text-amber-300 text-2xl pt-4">
-            Submit the form below or shoot me an email -{" "}
+            Submit the form below or shoot me an email directly. Click the following email /{" "}
             <a
               className="hover:text-4xl hover:text-white"
               href="mailto:streadwe@gmail.com"
